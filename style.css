@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    z-index: 3;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#header-img{
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#header-img img {
+    height: 50px;
+}
+
+#nav {
+    float: right;
+    margin: 30px 30px;
+    text-align: right;
+}
+
+#nav div {
+    color: seashell;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+#nav a {
+    color: seashell;
+}
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+#mission-container {
+    margin: 0px auto;
+    width: 80%;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-text {
+    background-color: black;
+    width: 100%;
+}
+
+#tea-container {
+    width: 70%;
+    margin: auto;
+}
+
+#tea-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea  {
+    margin: 10px;
+}
+
+.tea img {
+    margin-bottom: 10px;
+}
+
+.tea p {
+    margin-top: 0px;
+}
+
+#location-container{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#location-container h2 {
+    margin-bottom: 15px;
+    width: 100%;
+    height: max-content;
+}
+
+.location-box{
+    display: inline-block;
+    width: 300px;
+    height: max-content;
+    background-color: black;
+    margin: 20px;
+    opacity: 1;
+}
+
+#foot {
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 620px){
+    header{
+        height: fit-content;
+    }
+    #header-img{
+        display: block;
+        width: 100%;
+    }
+    #nav {
+        margin-top: 60px;
+    }
+}
