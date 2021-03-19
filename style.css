@@ -131,6 +131,10 @@ footer {
     text-align: left;
 }
 
+footer h5 {
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 620px){
     header{
         height: fit-content;
